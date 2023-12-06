@@ -125,7 +125,7 @@ path_inpaint = get_dir_or_set_default('path_inpaint', '../models/inpaint/')
 path_controlnet = get_dir_or_set_default('path_controlnet', '../models/controlnet/')
 path_clip_vision = get_dir_or_set_default('path_clip_vision', '../models/clip_vision/')
 path_fooocus_expansion = get_dir_or_set_default('path_fooocus_expansion', '../models/prompt_expansion/fooocus_expansion')
-path_outputs = get_dir_or_set_default('path_outputs', '../outputs/')
+path_outputs = get_dir_or_set_default('path_outputs', '/content/drive/MyDrive/outputs')
 
 
 def get_config_item_or_set_default(key, default_value, validator, disable_empty_as_none=False):
