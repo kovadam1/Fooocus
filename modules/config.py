@@ -116,7 +116,7 @@ def get_dir_or_set_default(key, default_value):
         return dp
 
 
-path_checkpoints = get_dir_or_set_default('path_checkpoints', '/content/drive/MyDrive/fooocus/Lora/')
+path_checkpoints = get_dir_or_set_default('path_checkpoints', '/content/drive/MyDrive/fooocus/checkpoints/')
 path_loras = get_dir_or_set_default('path_loras', '/content/drive/MyDrive/fooocus/Lora')
 path_embeddings = get_dir_or_set_default('path_embeddings', '/content/drive/MyDrive/fooocus/embeddings/')
 path_vae_approx = get_dir_or_set_default('path_vae_approx', '../models/vae_approx/')
